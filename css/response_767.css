@@ -1,0 +1,304 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        bottom: 84px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 48px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider
+    {
+        padding: 0;
+    }
+
+
+    .main_slider:before
+    {
+        background-position: 15% 0;
+    }
+
+
+    .main_slider:after
+    {
+        top: 682px;
+        bottom: auto;
+
+        height: 60px;
+    }
+
+
+    .main_slider .cont
+    {
+        min-height: 741px;
+        padding-top: 140px;
+        padding-bottom: 140px;
+
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+
+    .main_slider .data
+    {
+        width: 100%;
+    }
+
+
+    .main_slider .callback_btn
+    {
+        display: block;
+
+        margin: 277px auto 0;
+    }
+
+
+    .main_slider .title
+    {
+        font-size: 32px;
+    }
+
+    .main_slider .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .main_slider .image
+    {
+        right: 0;
+        bottom: 200px;
+
+        width: 100%;
+    }
+
+    .main_slider .image img
+    {
+        width: 317px;
+        height: 219px;
+        margin: auto;
+    }
+
+
+    .main_slider .bg
+    {
+        height: 116%;
+    }
+
+
+
+    .main_slider .contacts
+    {
+        position: relative;
+        bottom: 0;
+
+        width: 100%;
+        margin: 0;
+        padding: 24px 24px 40px;
+    }
+
+
+    .main_slider .contacts .row > *
+    {
+        width: 100%;
+    }
+
+    .main_slider .contacts .row > * + *
+    {
+        margin-top: 28px;
+        margin-left: 0;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        padding: 48px 0;
+    }
+
+
+    .about_info .block_head
+    {
+        text-align: center;
+    }
+
+    .about_info .block_head .title:after
+    {
+        right: 0;
+
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .about_info .stats .row
+    {
+        flex-direction: column;
+
+        margin-bottom: -40px;
+        margin-left: 0;
+
+        align-content: center;
+    }
+
+    .about_info .stats .row > *
+    {
+        width: 200px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .about_info .image:after
+    {
+        width: 70%;
+        height: 40%;
+    }
+
+
+
+    /*---------------
+        Equipment
+    ---------------*/
+    .equipment .data
+    {
+        width: 100%;
+    }
+
+
+    .equipment .images
+    {
+        margin: 40px auto 0;
+        padding: 0 20px;
+    }
+
+    .equipment .images .swiper-button-prev
+    {
+        left: -32px;
+    }
+
+    .equipment .images .swiper-button-next
+    {
+        right: -32px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages
+    {
+        padding: 48px 0 120px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .row > *
+    {
+        width: calc(50% - 40px);
+    }
+
+
+    .clients .item
+    {
+        display: flex;
+
+        height: 68px;
+
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .clients .item img
+    {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+
+
+    /*-----------
+        Order
+    -----------*/
+    .order
+    {
+        padding-top: 48px;
+        padding-bottom: 88px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+
+    .contacts_info .info
+    {
+        display: block;
+    }
+
+
+    .contacts_info .info > *
+    {
+        width: 100%;
+    }
+    .contacts_info .info > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+    .contacts_info .form .title
+    {
+        font-size: 16px;
+
+        margin-bottom: 32px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        border-top: 1px solid rgba(255,255,255,.6);
+    }
+
+
+    footer .logo img
+    {
+        height: 28px;
+    }
+}

@@ -1,0 +1,300 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        bottom: 132px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 32px 0;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .block_head .title:after
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider
+    {
+        padding-bottom: 80px;
+    }
+
+
+    .main_slider:before
+    {
+        height: 176px;
+
+        background-size: auto 100%;
+    }
+
+
+    .main_slider:after
+    {
+        height: 176px;
+
+        background-size: auto 100%;
+    }
+
+
+    .main_slider .cont
+    {
+        min-height: 700px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+
+    .main_slider .title
+    {
+        font-size: 44px;
+    }
+
+    .main_slider .desc
+    {
+        font-size: 22px;
+    }
+
+
+    .main_slider .image
+    {
+        bottom: 140px;
+
+        margin-right: -548px;
+    }
+
+
+
+    .main_slider .contacts
+    {
+        bottom: 68px;
+
+        width: 673px;
+        margin-left: 60px;
+
+        transform: translateX(-50%);
+    }
+
+
+    .main_slider .contacts .row > * + *
+    {
+        margin-left: 48px;
+    }
+
+
+    .main_slider .contacts .icon
+    {
+        margin-right: 16px;
+    }
+
+    .main_slider .contacts .icon + *
+    {
+        width: calc(100% - 74px);
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        padding: 80px 0;
+    }
+
+
+    .about_info .data
+    {
+        width: 680px;
+    }
+
+
+    .about_info .stats .row
+    {
+        margin-bottom: -32px;
+        margin-left: -40px;
+    }
+
+    .about_info .stats .row > *
+    {
+        margin-bottom: 32px;
+        margin-left: 40px;
+    }
+
+
+    .about_info .stats .item .val
+    {
+        height: 92px;
+    }
+
+
+    .about_info .image
+    {
+        width: calc(100% - 656px);
+        margin-right: -24px;
+    }
+
+    .about_info .image:after
+    {
+        width: 60%;
+        height: 30%;
+    }
+
+
+
+    /*---------------
+        Equipment
+    ---------------*/
+    .equipment
+    {
+        padding-bottom: 32px;
+    }
+
+
+    .equipment .images .swiper-button-next
+    {
+        right: -48px;
+    }
+
+    .equipment .images .swiper-button-prev
+    {
+        left: -48px;
+    }
+
+
+    .equipment .images .swiper-horizontal > .swiper-pagination-bullets,
+    .equipment .images .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .equipment .images .swiper-pagination-custom,
+    .equipment .images .swiper-pagination-fraction
+    {
+        bottom: -32px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages
+    {
+        padding: 80px 0 140px;
+    }
+
+    .advantages:before
+    {
+        height: 200px;
+
+        background-size: auto 100%;
+    }
+
+
+    .advantages .bg
+    {
+        height: calc(100% - 200px);
+    }
+
+
+    .advantages .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .advantages .item
+    {
+        padding-bottom: 60px;
+    }
+
+
+    .advantages .item .icon
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .advantages .item .desc
+    {
+        margin-top: 36px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*-----------
+        Order
+    -----------*/
+    .order
+    {
+        padding: 80px 0 120px;
+    }
+
+
+    .order .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .order:after
+    {
+        background-position: 50% 100%;
+        background-size: 100% auto;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .bg
+    {
+        padding: 60px;
+    }
+}

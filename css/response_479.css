@@ -1,0 +1,32 @@
+@media (max-width: 479px)
+{
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *
+    {
+        width: 100%;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .row
+    {
+        margin-left: 0;
+    }
+
+    .clients .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .clients .item
+    {
+        height: auto;
+    }
+}

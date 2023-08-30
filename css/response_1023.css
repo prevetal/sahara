@@ -1,0 +1,414 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        bottom: 96px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 68px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px 40px;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .tabs::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .tabs::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .tabs .btn
+    {
+        display: inline-block;
+
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+    }
+
+    .tabs .btn + .btn
+    {
+        margin-left: 4px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo
+    {
+        position: relative;
+        z-index: 3;
+    }
+
+    header .logo img
+    {
+        height: 46px;
+    }
+
+
+    header .menu,
+    header .phone
+    {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 100%;
+
+        display: block;
+
+        width: 100%;
+        margin: 0;
+        padding: 110px 24px 20px;
+
+        transition: .2s linear;
+
+        background: #fff;
+    }
+
+    header .menu.show,
+    header .phone.show
+    {
+        transform: translateX(-100%);
+    }
+
+
+    header .menu > * + *
+    {
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+    header .menu .btn
+    {
+        font-size: 24px;
+    }
+
+
+    header .phone
+    {
+        font-size: 24px;
+
+        top: 430px;
+
+        padding: 20px 24px 40px;
+    }
+
+
+    header .mob_menu_btn
+    {
+        display: flex;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider
+    {
+        padding-bottom: 120px;
+    }
+
+
+    .main_slider:before
+    {
+        height: 128px;
+
+        background-position: 25% 0;
+    }
+
+
+    .main_slider:after
+    {
+        bottom: 92px;
+
+        height: 100px;
+    }
+
+
+    .main_slider .cont
+    {
+        min-height: 600px;
+        padding-top: 80px;
+        padding-bottom: 160px;
+    }
+
+
+    .main_slider .data
+    {
+        width: 380px;
+    }
+
+
+    .main_slider .title
+    {
+        font-size: 36px;
+    }
+
+    .main_slider .desc
+    {
+        font-size: 18px;
+    }
+
+
+    .main_slider .image
+    {
+        right: 12px;
+        bottom: 160px;
+    }
+
+    .main_slider .image img
+    {
+        width: 380px;
+        height: 252px;
+    }
+
+
+
+    .main_slider .contacts
+    {
+        bottom: 40px;
+
+        margin-left: 0;
+    }
+
+
+    .main_slider .contacts .row > * + *
+    {
+        margin-left: 40px;
+    }
+
+
+    .main_slider .contacts .icon
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+    .main_slider .contacts .icon svg
+    {
+        width: 26px;
+        height: 26px;
+    }
+
+    .main_slider .contacts .icon + *
+    {
+        width: calc(100% - 64px);
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        padding: 60px 0;
+    }
+
+
+
+    /*---------------
+        Equipment
+    ---------------*/
+    .equipment .data
+    {
+        width: 100%;
+    }
+
+
+    .equipment .images
+    {
+        margin: 40px auto 0;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages
+    {
+        padding: 68px 0 100px;
+    }
+
+    .advantages:after
+    {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+
+        display: block;
+
+        width: 100%;
+        height: calc(100% - 200px);
+
+        content: '';
+
+        background: #1a4d70;
+    }
+
+
+    .advantages .bg
+    {
+        height: 583px;
+    }
+
+
+    .advantages .row
+    {
+        margin-left: 0;
+    }
+
+    .advantages .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .advantages .item
+    {
+        padding: 32px;
+    }
+
+    .advantages .item .name br
+    {
+        display: none;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .item img
+    {
+        max-width: 200px;
+        max-height: 68px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        padding-top: 68px;
+    }
+
+
+    .contacts_info .bg
+    {
+        padding: 0;
+
+        border-radius: 0;
+        background: none;
+    }
+
+
+    .contacts_info .data
+    {
+        width: 100%;
+    }
+
+
+    .contacts_info .info
+    {
+        display: flex;
+
+        padding: 32px;
+
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+
+    .contacts_info .info > *
+    {
+        width: calc(50% - 16px);
+    }
+
+    .contacts_info .info > * + *
+    {
+        margin-top: 0;
+    }
+
+
+    .contacts_info .time
+    {
+        padding: 32px;
+    }
+
+
+    .contacts_info .form
+    {
+        color: #fff;
+
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+    .contacts_info .form .title
+    {
+        color: #fff;
+    }
+
+    .contacts_info .form .submit
+    {
+        padding: 0;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 24px 0;
+    }
+}
