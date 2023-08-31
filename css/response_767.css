@@ -288,6 +288,21 @@
 
 
 
+    /*-------------
+        Objects
+    -------------*/
+    .objects .list
+    {
+        margin-top: 16px;
+    }
+
+    .objects .list > *
+    {
+        width: calc(50% - 8px);
+    }
+
+
+
     /*------------
         Footer
     ------------*/
